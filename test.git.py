@@ -6,8 +6,7 @@ Password = "fatstinkypoo"
 a = input("Enter your username:")
 b = input("Enter your password:")
 
-if a == Username:
-    if b == Password:
-        print("login successful")
-    else: print("incorrect Password or Username")
-else: print("incorrect Password or Username")
+if a == Username and b == Password:
+    print("login successful")
+else:
+    print("incorrect username or password")
